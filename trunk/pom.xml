@@ -158,16 +158,17 @@
 
   <!-- Environment Settings -->
   <issueManagement>
-    <url>http://www.jpeterson.com/track</url>
+    <url>http://code.google.com/p/virtlcd/issues/list</url>
   </issueManagement>
   <!--
     <ciManagement></ciManagement>
     <mailingLists></mailingLists>
   -->
   <scm>
-    <connection>scm:svn</connection>
+    <connection>scm:svn:http://virtlcd.googlecode.com/svn/trunk/</connection>
+    <developerConnection>scm:svn:https://virtlcd.googlecode.com/svn/trunk/</developerConnection>
     <tag>HEAD</tag>
-    <url>http://www.jpeterson.com/track</url>
+    <url>http://code.google.com/p/virtlcd/source/browse</url>
   </scm>
   <repositories>
     <repository>
