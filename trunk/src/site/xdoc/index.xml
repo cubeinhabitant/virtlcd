@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<document>
+  <!-- find information about the format at: http://maven.apache.org/reference/plugins/xdoc/ -->
+  <properties>
+    <title>About</title>
+    <author email="jesse@jpeterson.com">Jesse Peterson</author>
+  </properties>
+  <body>
+    <section name="Introduction">
+      <p>
+        This is a Java Swing package for simulating an LCD character
+        display. It provides a simple dot matrix character display based
+        on actual LCD character display components. This package can be
+        used to create software versions of hardware displays which can
+        be useful in prototyping an LCD character interface.
+      </p>
+      <p>
+        An example program is provided that lets you interact with:
+        <ul>
+          <li>
+            a single character:
+            <br />
+            <img src="images/screenshot-virtlcd_Demo-Character_test.png"
+              alt="Character test screenshot" />
+          </li>
+          <li>
+            a multi-line display:
+            <br />
+            <img src="images/screenshot-virtlcd_Demo-Display_test.png"
+              alt="Display test screenshot" />
+          </li>
+          <li>
+            a sample of all of the characters available:
+            <br />
+            <img src="images/screenshot-virtlcd_Demo-Character_set.png"
+              alt="Character set screenshot" />
+          </li>
+        </ul>
+      </p>
+    </section>
+  </body>
+</document>
