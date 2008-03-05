@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<document>
+  <!-- find information about the format at:
+    http://maven.apache.org/reference/plugins/changes/ -->
+  <properties>
+    <title>Changes</title>
+    <author email="jesse@jpeterson.com">Jesse Peterson</author>
+  </properties>
+  <body>
+    <release version="1.0.0" date="upcoming"
+      description="Initial release">
+      <action dev="cubeinhabitant" type="add">
+        Initial release with JDotMatrixDisplay and JDtoMatrixSixByEight
+        character.
+      </action>
+    </release>
+  </body>
+</document>

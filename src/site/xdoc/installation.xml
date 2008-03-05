@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<document>
+  <!-- find information about the format at: http://maven.apache.org/reference/plugins/xdoc/ -->
+  <properties>
+    <title>Installation</title>
+    <author email="jesse@jpeterson.com">Jesse Peterson</author>
+  </properties>
+  <body>
+    <section name="Introduction">
+      <p>
+        The API is provided as a Java JAR package. To use it, you just
+        need to include it in your classpath.
+      </p>
+    </section>
+  </body>
+</document>

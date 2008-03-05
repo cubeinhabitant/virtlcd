@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<document>
+  <!-- find information about the format at: http://maven.apache.org/reference/plugins/xdoc/ -->
+  <properties>
+    <title>Sample</title>
+    <author email="jesse@jpeterson.com">Jesse Peterson</author>
+  </properties>
+  <body>
+    <section name="Introduction">
+      <p>Welcome</p>
+      <subsection name="Character test">
+        <p>More stuff</p>
+      </subsection>
+      <subsection name="Display test">
+        <p>More stuff</p>
+      </subsection>
+      <subsection name="Character set">
+        <p>More stuff</p>
+      </subsection>
+    </section>
+  </body>
+</document>
