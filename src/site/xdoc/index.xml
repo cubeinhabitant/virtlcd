@@ -15,7 +15,9 @@
         be useful in prototyping an LCD character interface.
       </p>
       <p>
-        An example program is provided that lets you interact with:
+        An
+        <a href="sample.html">example program</a>
+        is provided that lets you interact with:
         <ul>
           <li>
             a single character:
@@ -36,6 +38,23 @@
               alt="Character set screenshot" />
           </li>
         </ul>
+      </p>
+    </section>
+    <section name="References">
+      <p>
+        This project is based on information about Swing components in
+        the
+        <a href="http://www.java.net/">java.net</a>
+        article
+        <a
+          href="http://today.java.net/pub/a/today/2007/02/22/how-to-write-custom-swing-component.html">
+          "How to Write a Custom Swing Component"
+        </a>
+        by
+        <a href="http://today.java.net/pub/au/275">
+          Kirill Grouchnikov
+        </a>
+        .
       </p>
     </section>
   </body>
