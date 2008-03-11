@@ -20,7 +20,7 @@
     </menu>
     <menu name="Getting Started">
       <item name="Downloading" href="/download.html" />
-      <item name="Release Notes" href="/releaseNotes-LATEST.html" />
+      <item name="Release Notes" href="/releaseNotes.html" />
       <item name="Installation" href="/installation.html" />
       <item name="Sample" href="/sample.html" />
     </menu>

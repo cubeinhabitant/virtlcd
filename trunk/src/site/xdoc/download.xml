@@ -13,7 +13,8 @@
           <tr>
             <th>Version</th>
             <th>Date</th>
-            <th></th>
+            <th>Release Notes</th>
+            <th>Download</th>
           </tr>
           <tr>
             <td>
@@ -21,6 +22,9 @@
             </td>
             <td>
               <em>soon</em>
+            </td>
+            <td>
+              <a href="releaseNotes.html#1.0.0">Release Notes</a>
             </td>
             <td>
               <a
