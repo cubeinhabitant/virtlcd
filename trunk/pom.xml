@@ -153,10 +153,10 @@
     <mailingLists></mailingLists>
   -->
   <scm>
-    <connection>scm:svn:http://virtlcd.googlecode.com/svn/tags/release_1_0_0</connection>
-    <developerConnection>scm:svn:https://virtlcd.googlecode.com/svn/tags/release_1_0_0</developerConnection>
+    <connection>scm:svn:http://virtlcd.googlecode.com/svn/trunk</connection>
+    <developerConnection>scm:svn:https://virtlcd.googlecode.com/svn/trunk</developerConnection>
     <tag>HEAD</tag>
-    <url>http://code.google.com/p/virtlcd/source/browse/tags/release_1_0_0</url>
+    <url>http://code.google.com/p/virtlcd/source/browse/trunk</url>
   </scm>
   <repositories>
     <repository>
