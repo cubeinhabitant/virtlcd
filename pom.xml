@@ -1,12 +1,10 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0"
-  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
   <!-- The Basics -->
   <groupId>com.jpeterson</groupId>
   <artifactId>virtlcd</artifactId>
-  <version>1.0.0-SNAPSHOT</version>
+  <version>1.0.0</version>
   <packaging>jar</packaging>
   <dependencies>
     <dependency>
@@ -30,9 +28,9 @@
         <groupId>org.apache.maven.wagon</groupId>
         <artifactId>wagon-ftp</artifactId>
         <!--  <version>1.0-alpha-6</version>  -->
-        <version>1.0-beta-2</version>
+        <!-- <version>1.0-beta-2</version> -->
         <!-- local version for FTP site publishing -->
-        <!--  <version>1.0-beta-2-SNAPSHOT</version> -->
+        <version>1.0-beta-2-SNAPSHOT</version>
       </extension>
     </extensions>
     <plugins>
@@ -155,14 +153,10 @@
     <mailingLists></mailingLists>
   -->
   <scm>
-    <connection>
-      scm:svn:http://virtlcd.googlecode.com/svn/trunk/
-    </connection>
-    <developerConnection>
-      scm:svn:https://virtlcd.googlecode.com/svn/trunk/
-    </developerConnection>
+    <connection>scm:svn:http://virtlcd.googlecode.com/svn/tags/release_1_0_0</connection>
+    <developerConnection>scm:svn:https://virtlcd.googlecode.com/svn/tags/release_1_0_0</developerConnection>
     <tag>HEAD</tag>
-    <url>http://code.google.com/p/virtlcd/source/browse</url>
+    <url>http://code.google.com/p/virtlcd/source/browse/tags/release_1_0_0</url>
   </scm>
   <repositories>
     <repository>
