@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<document>
+  <!-- find information about the format at: http://maven.apache.org/reference/plugins/xdoc/ -->
+  <properties>
+    <title>Download</title>
+    <author email="jesse@jpeterson.com">Jesse Peterson</author>
+  </properties>
+  <body>
+    <section name="Introduction">
+      <p>The virtlcd API is distributed as a Java JAR.</p>
+      <subsection name="Download">
+        <table>
+          <tr>
+            <th>Version</th>
+            <th>Date</th>
+            <th>Release Notes</th>
+            <th>Download</th>
+          </tr>
+          <tr>
+            <td>
+              <a href="changes-report.html#1.0.0">1.0.0</a>
+            </td>
+            <td>
+              <em>soon</em>
+            </td>
+            <td>
+              <a href="releaseNotes.html#1.0.0">Release Notes</a>
+            </td>
+            <td>
+              <a
+                href="http://www.jpeterson.com/maven2/com/jpeterson/virtlcd/1.0.0/virtlcd-1.0.0.jar">
+                Download
+              </a>
+            </td>
+          </tr>
+        </table>
+      </subsection>
+    </section>
+  </body>
+</document>

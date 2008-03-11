@@ -1,0 +1,149 @@
+<?xml version="1.0"?>
+<document>
+  <!-- find information about the format at: http://maven.apache.org/reference/plugins/xdoc/ -->
+  <properties>
+    <title>Sample</title>
+    <author email="jesse@jpeterson.com">Jesse Peterson</author>
+  </properties>
+  <body>
+    <section name="Introduction">
+      <p>
+        I have provided a sample program that uses the different Swing
+        JComponents provided in
+        <code>virtlcd</code>
+        . The sample program
+        <a href="apidocs/com/jpeterson/virtlcd/TestHarness.html">
+          <code>com.jpeterson.virtlcd.TestHarness</code>
+        </a>
+        <a href="xref/com/jpeterson/virtlcd/TestHarness.html">
+          (source)
+        </a>
+        provides three different tabs:
+        <a href="#Character%20test">Character test</a>
+        ,
+        <a href="#Display%20test">Display test</a>
+        , and
+        <a href="#Character%20set">Character set</a>
+        .
+      </p>
+      <p>
+        You can easily run the application directly from the jar file.
+        Here is a sample:
+      </p>
+      <code>java -jar virtlcd-[version].jar</code>
+      <p>
+        The
+        <code>[version]</code>
+        should be replaced with the actual version of the API.
+      </p>
+      <subsection name="Character test">
+        <p>
+          The "Character test" tab provides an example usage of
+          <a
+            href="apidocs/com/jpeterson/virtlcd/swing/JDotMatrixSixByEight.html">
+            <code>
+              com.jpeterson.virtlcd.swing.JDotMatrixSixByEight
+            </code>
+          </a>
+          . The
+          <code>JDotMatrixSixByEight</code>
+          is a component that displays a single character. The method
+          <a
+            href="apidocs/com/jpeterson/virtlcd/swing/JDotMatrixSixByEight.html#setChar(char)">
+            <code>setChar(char)</code>
+          </a>
+          is used to "set the character" to display. The character set
+          that the component uses to display characters can be found in
+          the
+          <a href="#Character%20set">"Character set"</a>
+          tab.
+        </p>
+        <subsection name="Screenshot">
+          <img src="images/screenshot-virtlcd_Demo-Character_test.png"
+            alt="Character test screenshot" />
+        </subsection>
+        <subsection name="Usage">
+          <p>
+            In the
+            <a href="#Character%20test">"Character test"</a>
+            tab, you will find a text field labeled "Character". The
+            text field allows just one character. As soon as you type a
+            character, it will be displayed in by the
+            <code>JDotMatrixSixByEight</code>
+            labeled "Display".
+          </p>
+        </subsection>
+      </subsection>
+      <subsection name="Display test">
+        <p>
+          The "Display test" tab provides an example usage of
+          <a
+            href="apidocs/com/jpeterson/virtlcd/swing/JDotMatrixDisplay.html">
+            <code>com.jpeterson.virtlcd.swing.JDotMatrixDisplay</code>
+          </a>
+          . The
+          <code>JDotMatrixDisplay</code>
+          is a component that displays an array of characters in a grid
+          of columns and rows. The method
+          <a
+            href="apidocs/com/jpeterson/virtlcd/swing/JDotMatrixDisplay.html#setText(java.lang.String)">
+            <code>setText(java.lang.String)</code>
+          </a>
+          is used to "set the character" to display. The text entered is
+          split across the different rows by breaking on "new line" (\n)
+          characters embedded in the text string. The character set that
+          the component uses to display characters can be found in the
+          <a href="#Character%20set">"Character set"</a>
+          tab.
+        </p>
+        <subsection name="Screenshot">
+          <img src="images/screenshot-virtlcd_Demo-Display_test.png"
+            alt="Display test screenshot" />
+        </subsection>
+        <subsection name="Usage">
+          <p>
+            In the
+            <a href="#Display%20test">"Display test"</a>
+            tab, you will find a text area labeled "Message". The text
+            area allows you to enter multiple lines of text. As soon as
+            you type a character, it will be displayed in by the
+            <code>JDotMatrixDispley</code>
+            labeled "Display". You can type multiple lines by typing a
+            "Enter" key. The "Backspace" key will remove characters. If
+            you type more characters than characters per row in the
+            <code>JDotMatrixDispley</code>
+            component, the excess characters are not displayed.
+          </p>
+        </subsection>
+      </subsection>
+      <subsection name="Character set">
+        The "Character set" tab provides a matrix showing each possible
+        character in the character set supported by
+        <code>JDotMatrixSixByEight</code>
+        . The character set is based on the
+        <a href="http://www.crystalfontz.com/products/634/index.html">
+          CFA-634 serial LCD
+        </a>
+        available from
+        <a href="http://www.crystalfontz.com">Crystalfontz</a>
+        .
+        <subsection name="Screenshot">
+          <img src="images/screenshot-virtlcd_Demo-Character_set.png"
+            alt="Character set screenshot" />
+        </subsection>
+        <subsection name="Usage">
+          <p>
+            This tab doesn't do much. Across the x-axis you will find
+            numbers representing the first character in the column. Down
+            the y-axis you will find numbers representing the row. To
+            determine the character value of a certain cell, you add the
+            column number with the row number. For instance, the
+            character 'a' is 96 + 1 = 97. You can hover over the
+            character and a tool tip will pop the decimal value for the
+            character.
+          </p>
+        </subsection>
+      </subsection>
+    </section>
+  </body>
+</document>

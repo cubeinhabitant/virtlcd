@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<document>
+  <!-- find information about the format at: http://maven.apache.org/reference/plugins/xdoc/ -->
+  <properties>
+    <title>Release Notes</title>
+    <author email="jesse@jpeterson.com">Jesse Peterson</author>
+  </properties>
+  <body>
+    <a name="1.0.0" />
+    <section name="Release 1.0.0">
+      <p>
+        Welcome to the initial release. Being the initial release,
+        everything is new. There is an
+        <a href="sample.html">example program</a>
+        to help introduce you to the API.
+      </p>
+      <p>
+        Check out the
+        <a href="changes-report.html#1.0.0">change report</a>
+        for more detail.
+      </p>
+    </section>
+  </body>
+</document>
