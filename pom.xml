@@ -10,12 +10,6 @@
   <packaging>jar</packaging>
   <dependencies>
     <dependency>
-      <groupId>commons-logging</groupId>
-      <artifactId>commons-logging</artifactId>
-      <version>1.1</version>
-      <scope>compile</scope>
-    </dependency>
-    <dependency>
       <groupId>jmock</groupId>
       <artifactId>jmock</artifactId>
       <version>1.2.0</version>
@@ -165,8 +159,12 @@
     <mailingLists></mailingLists>
   -->
   <scm>
-    <connection>scm:svn:http://virtlcd.googlecode.com/svn/trunk/</connection>
-    <developerConnection>scm:svn:https://virtlcd.googlecode.com/svn/trunk/</developerConnection>
+    <connection>
+      scm:svn:http://virtlcd.googlecode.com/svn/trunk/
+    </connection>
+    <developerConnection>
+      scm:svn:https://virtlcd.googlecode.com/svn/trunk/
+    </developerConnection>
     <tag>HEAD</tag>
     <url>http://code.google.com/p/virtlcd/source/browse</url>
   </scm>
